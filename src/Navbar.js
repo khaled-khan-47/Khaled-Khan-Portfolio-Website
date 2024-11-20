@@ -7,11 +7,13 @@ const Navbar = () => {
     return (
         <>
             <nav className = {styles.navbar}>
-                <div className = {styles.navleft}>
-                    <Link className = {styles.homebutton} to ="/"><div className = {current.pathname === '/' ? styles.activepage : ''}>Home</div></Link>
-                    <p className = {styles.divider}> | </p>
-                </div>
                 <ul className = {styles.menu}>
+                    <li className = {styles.menubutton}>
+                        <Link to ="/" className = {current.pathname === '/' ? styles.activepage : ''}>Home</Link>
+                    </li>
+                    <li className = {styles.menubutton}>
+                        <p> | </p>    
+                    </li>
                     <li className = {styles.menubutton}>
                         <Link className = {current.pathname === '/about' ? styles.activepage : ''} to="/about">About</Link>
                     </li>
@@ -21,6 +23,7 @@ const Navbar = () => {
                     <li className = {styles.menubutton}>
                         <Link className = {current.pathname === '/connect' ? styles.activepage : ''} to="/connect">Connect</Link>
                     </li>
+                    
                 </ul>
             </nav>
         </>

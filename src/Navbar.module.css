@@ -6,22 +6,7 @@
     justify-content: space-between;
     border-radius: 30px;
     padding: 0%;
-    min-width: 500px;
-}
-
-.navleft {
-    display: flex;
-    padding-left: 30px;
-}
-
-.homebutton {
-    padding: 20px;
-    min-width: 50px;
-    text-align: center;
-}
-
-.divider {
-    padding-left: 20px;
+    min-width: 300px;
 }
 
 .menu {
@@ -36,9 +21,13 @@
 
 .menubutton {
     display: flex;
-    padding: 20px;
-    text-align: center;;
+    padding: 0px;
+    text-align: center;
     list-style: none;
+
+}
+.navbar a {
+    align-self: center;
 }
 
 .navbar a:link {
