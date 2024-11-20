@@ -1,0 +1,22 @@
+.box {
+    background-color: #222;
+    position: relative;
+    border-radius: 30px;
+    margin-top: 20px;
+    width: 100%;
+    min-width: 550px;
+}
+.container {
+    padding: 10px 20px;
+}
+.header {
+    margin: 0;
+    margin-top: 10px;
+}
+.box p {
+    margin: 10px 0px;
+}
+
+.box a {
+    color: #bbf;
+}

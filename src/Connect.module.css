@@ -1,0 +1,23 @@
+.box {
+    background-color: #222;
+    position: relative;
+    border-radius: 30px;
+    margin-top: 20px;
+    display: inline-flex;
+    width: 100%;
+    min-width: 550px;
+}
+.icon {
+    min-width: 40px;
+    max-width: 80px;
+    height: 100%;
+    border-radius: 60px;
+    margin: 0px;
+    padding: 15px;
+}
+.link {
+    margin-left: 20px;
+    align-self: center;
+    color: #fff;
+}
+

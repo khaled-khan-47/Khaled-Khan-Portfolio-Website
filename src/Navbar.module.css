@@ -1,0 +1,66 @@
+.navbar {
+    background-color: #000;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding: 0%;
+    min-width: 550px;
+}
+
+.navleft {
+    display: flex;
+    padding-left: 20px;
+}
+
+.homebutton {
+    padding: 20px;
+    min-width: 50px;
+    text-align: center;
+}
+
+.divider {
+    padding-left: 20px;
+}
+
+.menu {
+    display: flex;
+    min-width: 150px;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-left: 0%;
+    padding-right: 0%;
+
+}
+
+.menubutton {
+    display: flex;
+    padding: 20px;
+    text-align: center;;
+    list-style: none;
+}
+
+.navbar a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.navbar a:active {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.activepage {
+    font-weight: bold
+}
