@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Navbar.module.css'
-import { useLocation } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 const Navbar = () => {
     const current = useLocation();
 
@@ -8,18 +8,18 @@ const Navbar = () => {
         <>
             <nav className = {styles.navbar}>
                 <div className = {styles.navleft}>
-                    <a className = {styles.homebutton} href ="/"><div className = {current.pathname === '/' ? styles.activepage : ''}>Home</div></a>
+                    <Link className = {styles.homebutton} to ="/"><div className = {current.pathname === '/' ? styles.activepage : ''}>Home</div></Link>
                     <p className = {styles.divider}> | </p>
                 </div>
                 <ul className = {styles.menu}>
                     <li className = {styles.menubutton}>
-                        <a className = {current.pathname === '/about' ? styles.activepage : ''} href="/about">About</a>
+                        <Link className = {current.pathname === '/about' ? styles.activepage : ''} to="/about">About</Link>
                     </li>
                     <li className = {styles.menubutton}>
-                        <a className = {current.pathname === '/projects' ? styles.activepage : ''} href="/projects">Projects</a>
+                        <Link className = {current.pathname === '/projects' ? styles.activepage : ''} to="/projects">Projects</Link>
                     </li>
                     <li className = {styles.menubutton}>
-                        <a className = {current.pathname === '/connect' ? styles.activepage : ''} href="/connect">Connect</a>
+                        <Link className = {current.pathname === '/connect' ? styles.activepage : ''} to="/connect">Connect</Link>
                     </li>
                 </ul>
             </nav>
