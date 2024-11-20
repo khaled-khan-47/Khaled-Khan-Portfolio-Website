@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/khaled-khan-portfolio-website/static/css/main.c5973700.css",
-    "main.js": "/khaled-khan-portfolio-website/static/js/main.47582ff3.js",
+    "main.js": "/khaled-khan-portfolio-website/static/js/main.4f948d3c.js",
     "static/media/profile_photo.jpeg": "/khaled-khan-portfolio-website/static/media/profile_photo.21f012ba82abbf66629f.jpeg",
     "static/media/github.png": "/khaled-khan-portfolio-website/static/media/github.a9009c4f1805fd1f957b.png",
     "static/media/email.jpg": "/khaled-khan-portfolio-website/static/media/email.c1e8d7aa62cecf8c656a.jpg",
     "static/media/linked_in.png": "/khaled-khan-portfolio-website/static/media/linked_in.ace2da6b2f4e955c0e04.png",
     "index.html": "/khaled-khan-portfolio-website/index.html",
     "main.c5973700.css.map": "/khaled-khan-portfolio-website/static/css/main.c5973700.css.map",
-    "main.47582ff3.js.map": "/khaled-khan-portfolio-website/static/js/main.47582ff3.js.map"
+    "main.4f948d3c.js.map": "/khaled-khan-portfolio-website/static/js/main.4f948d3c.js.map"
   },
   "entrypoints": [
     "static/css/main.c5973700.css",
-    "static/js/main.47582ff3.js"
+    "static/js/main.4f948d3c.js"
   ]
 }
