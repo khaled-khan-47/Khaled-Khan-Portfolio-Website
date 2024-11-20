@@ -12,7 +12,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "hmepage": "https://khaled-khan-47.github.io/khaled-khan-portfolio-website",
+  "homepage": "https://khaled-khan-47.github.io/khaled-khan-portfolio-website",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
